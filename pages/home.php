@@ -1,32 +1,37 @@
-<?php
-	require_once('dados/produtos.php');
-?>
-
 <style>
 	.card-produto img{
 		width: 200px;
-		height: 200px;
+		heigt: 200px;
 		border-radius: 100px;
 	}
-	card-produto{
-		text-align: center;
+	.card-produto{
 		width: 200px;
-		font: arial, 20;
-		margin: 40px;
-
+		text-align: center;
+		margin: 30px;
 	}
 </style>
 
-<?php
-	foreach($produtos as $produtos):
-?>
-
-<a href="index.php?page=produtos&id=<?php echo $produto['id']?>"
-	<div class="card-produto">
-		<img src="images/<?php echo $produtos['imagem']?>" alt="<?php echo $produtos['nome']?>">
-			<h3><?php echo $produtos['nome']?></h3>
-		
-	</div>
-<?php
-	endforeach
-?>
+<div class="card-produto">
+	<img src="images/doce.png" alt="doce">
+	<h3>Doce de Leite</h3>
+</div>
+<div>
+	<img src="images/abobora.png" alt="abobora">
+	<h3>Abóbora</h3>
+</div>
+<div>
+	<img src="images/abacaxi.png" alt="abacaxi">
+	<h3>Abacaxi com coco</h3>
+</div>
+<div>
+	<img src="images/goiaba.png" alt="goiaba">
+	<h3>Goiaba</h3>
+</div>
+<div>
+	<img src="images/laranja.png" alt="laranja">
+	<h3>Doce de laranja</h3>
+</div>
+<div>
+	<img src="images/morango.png" alt="morango">
+	<h3>Morango</h3>
+</div>
