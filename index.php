@@ -44,7 +44,13 @@
 		background-color: lightpink;
 		min-height: 50px;
 		padding: 40px;
-		justify-content: center;
+	}
+	.container{
+		max-width: 800px;
+		display: flex;
+		margin: auto;
+		padding-top: 30px;
+		flex-wrap: wrap;
 	}
 </style>
 </head>
@@ -61,14 +67,17 @@
 		</ul>
 	</nav>
 	<div class="content">
-
+			<div class="container">
+				<?php
+					include ('pages/home.php');
+				?>
+			</div>
 	</div>
 	<footer>
 		Josiane Mine Fernandes<br>
 		RA: 20066086-5 <br>
-		Curso: Sistemas para Internet
-
-
+		Curso: Sistemas para Internet<br>
+		UNICESUMAR
 	</footer>
 
 </body>
