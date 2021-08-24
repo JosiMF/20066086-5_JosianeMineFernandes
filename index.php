@@ -51,6 +51,7 @@
 		margin: auto;
 		padding-top: 30px;
 		flex-wrap: wrap;
+		justify-content: space-between;
 	}
 </style>
 </head>
