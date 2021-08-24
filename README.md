@@ -1,2 +1,6 @@
-# 20066086-5_JosianeMineFernandes
-# 20066086-5_JosianeMFernandes
+# Josiane Mine Fernandes
+
+
+### Sobre mim
+Sou aluna da UNICESUMAR, do curso de Sistemas para Internet.
+RA 20066086-5
