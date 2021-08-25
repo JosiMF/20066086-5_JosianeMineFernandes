@@ -8,12 +8,13 @@
 <style>
 	body{
 		margin: 0;
+		font-family: Arial;
 	}
 	header{
 		height: 150px;
 		background-color: hotpink;
 		text-align: center;
-		paddin: 25px;
+		padding: 25px;
 
 	}
 	.logo{
@@ -40,6 +41,9 @@
 	.content{
 		min-height: 400px;
 	}
+	.content img {
+		width: 500px;
+	}
 	footer{
 		background-color: lightpink;
 		min-height: 50px;
@@ -51,7 +55,13 @@
 		margin: auto;
 		padding-top: 30px;
 		flex-wrap: wrap;
-		justify-content: space-between;
+	}
+	.doce {
+		width: 100%;
+		text-align: center;
+		border:  1px solid #ccc;
+		margin-bottom: 10px;
+		padding: 10px;
 	}
 </style>
 </head>
@@ -61,16 +71,25 @@
 	</header>
 	<nav>
 		<ul>
-			<li>Home</li>
-			<li>Quem Somos</li>
-			<li>Contato</li>
-			<li>Localização</li>
+			<li><a href="index.php?page=home">Home</a></li>
+			<li><a href="index.php?page=quemsomos">Quem Somos</a></li>
+			<li><a href="index.php?page=produtos">Produtos</a></li>
+			<li><a href="index.php?page=contato">Contato</a></li>
+			<li><a href="index.php?page=localizacao">Localização</a></li>
 		</ul>
 	</nav>
 	<div class="content">
 			<div class="container">
 				<?php
-					include ('pages/home.php');
+					//include ('pages/home.php');
+
+					//recebe por GET ou guarda a palavra home
+					$page = $_GET['page'] ?? 'home';
+					//arquivo que deve abrir
+					$arquivo = "pages/{$page}.php";
+
+					include ($arquivo);
+
 				?>
 			</div>
 	</div>
