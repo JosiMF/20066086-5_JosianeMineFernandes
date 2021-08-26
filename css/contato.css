@@ -1,0 +1,36 @@
+<style>
+	.form-contact{
+		width: 100%;
+	}
+	.form-contact input, textarea{
+		font-family: inherit;
+		font-size: 16px;
+		margin-top: 20px;
+		padding: 20px;
+		width: 100%;
+		border:  1px, solid, hotpink;
+		border-radius: 7px;
+	}
+	.form-title{
+		text-align: center;
+	}
+	.form-contact button{
+		text-decoration: none;
+		color: black;
+		padding: 12px;
+		margin: 15px;
+		font-weight: bold;
+		border-radius: 7px;
+		background-color: lightpink;
+		cursor: pointer;
+	}
+	.message{
+		border: 1px, solid, hotpink;
+		padding: 40px;
+		font-size: 18px;
+		text-align: center;
+		width: 100%;
+		border-radius: 7px;
+	}
+
+</style>
