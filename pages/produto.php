@@ -1,26 +1,3 @@
-<style>
-	. prod-cl{
-		width: 50%;
-	}
-	. prod-cr{
-		width: 50%;
-		margin-bottom: 10px;
-	}
-	.prod-cl img{
-		width: 300px;
-		height: 300px;
-		border-radius: 150px;
-	}
-	.button{
-		text-decoration: none;
-		color: black;
-		background-color: lightpink;
-		padding: 12px;
-		margin: 15px;
-		
-
-	}
-</style>
 <?php
 	require_once('dados/produtos.php');
 	$id= null;
