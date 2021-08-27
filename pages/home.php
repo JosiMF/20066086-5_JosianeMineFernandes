@@ -18,7 +18,6 @@
 
 </style>
 
- 
 <div class="card-produto">
 	<img src="images/doce.png" alt="doce">
 	<h3>Doce de Leite</h3>
@@ -43,4 +42,3 @@
 	<img src="images/goiaba.png" alt="goiaba">
 	<h3>Goiaba</h3>
 </div>
-
